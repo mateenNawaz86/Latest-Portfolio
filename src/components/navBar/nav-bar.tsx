@@ -49,8 +49,8 @@ export const Navbar = () => {
         scrolled ? "shadow-lg" : ""
       }`}
     >
-      <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center">
+      <div className="container mx-auto md:px-4">
+        <div className="flex justify-between items-center px-4">
           <Image
             src={profile}
             alt="profile"
@@ -70,7 +70,7 @@ export const Navbar = () => {
             ))}
           </nav>
           <button
-            className="md:hidden focus:outline-none"
+            className="md:hidden focus:outline-none cursor-pointer"
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
           >
@@ -94,7 +94,11 @@ export const Navbar = () => {
           </button>
         </div>
 
-        <div className={`md:hidden ${isOpen ? "block" : "hidden"} mt-4 pb-4`}>
+        <div
+          className={`md:hidden ${
+            isOpen ? "fixed w-full" : "hidden"
+          } mt-4 pb-4`}
+        >
           <MobileMenu
             navItems={navItems}
             activeSection={activeSection}
