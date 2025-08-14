@@ -17,3 +17,8 @@ export interface ExperienceType {
 export interface ExperienceCardProps {
   experience: ExperienceType;
 }
+
+export interface Skills {
+  icon: string | StaticImageData;
+  title: string;
+}
