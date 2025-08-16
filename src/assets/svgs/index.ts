@@ -20,3 +20,7 @@ export { default as buero365 } from "@/assets/svgs/buero-365.svg";
 export { default as swissHelden } from "@/assets/svgs/swiss-helden.svg";
 export { default as kaufes } from "@/assets/svgs/kaufes.svg";
 export { default as pak4fly } from "@/assets/svgs/pakr-fly.svg";
+export { default as hop } from "@/assets/svgs/hop.svg";
+export { default as hopUser } from "@/assets/svgs/hop-user.svg";
+export { default as hopBusiness } from "@/assets/svgs/hop-bb.svg";
+export { default as hopAdmin } from "@/assets/svgs/hop-admin.svg";

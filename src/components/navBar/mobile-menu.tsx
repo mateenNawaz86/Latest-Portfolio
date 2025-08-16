@@ -12,7 +12,7 @@ export const MobileMenu = ({
   scrollToSection,
 }: MobileMenuProps) => {
   return (
-    <div className="flex flex-col space-y-3 bg-[#61A4AF]">
+    <div className="flex flex-col space-y-3 bg-[#61A4AF] shadow-lg">
       {navItems?.map((item) => (
         <button
           key={item.id}
