@@ -8,8 +8,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-poppins)", "var(--font-geist-sans)", "sans-serif"],
-        mono: ["var(--font-geist-mono)", "monospace"],
+        poppins: ["var(--font-poppins)", "sans-serif"],
+        geist: ["var(--font-geist-mono)", "monospace"],
+      },
+      boxShadow: {
+        "inner-custom":
+          "inset 5px 5px 4.1px rgba(0,0,0,0.1), inset -5px -5px 7.4px rgba(255,255,255,0.2)",
       },
     },
   },

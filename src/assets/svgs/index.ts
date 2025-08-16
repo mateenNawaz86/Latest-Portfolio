@@ -18,3 +18,5 @@ export { default as htmlIcon } from "@/assets/svgs/logos_html-5.svg";
 export { default as cssIcon } from "@/assets/svgs/css.svg";
 export { default as buero365 } from "@/assets/svgs/buero-365.svg";
 export { default as swissHelden } from "@/assets/svgs/swiss-helden.svg";
+export { default as kaufes } from "@/assets/svgs/kaufes.svg";
+export { default as pak4fly } from "@/assets/svgs/pakr-fly.svg";
