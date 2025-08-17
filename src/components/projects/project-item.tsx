@@ -23,6 +23,7 @@ export const ProjecItem = ({
 
       <Link
         href={slug}
+        target="_blank"
         className="mt-5 text-xs font-medium text-white flex items-center gap-x-2 rounded-md bg-[#1f577b] hover:bg-[#4A6AF5] cursor-pointer w-fit py-2 px-3"
       >
         Read More <ForwardIcon />
