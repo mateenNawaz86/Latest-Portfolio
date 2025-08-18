@@ -56,7 +56,7 @@ export const Navbar = () => {
             alt="profile"
             width={55}
             height={55}
-            className="w-[55px] h-[55px] object-cover rounded-full cursor-pointer"
+            className="w-[55px] h-[55px] object-contain rounded-full cursor-pointer"
           />
           <nav className="hidden md:flex space-x-6">
             {navItems?.map((item) => (
