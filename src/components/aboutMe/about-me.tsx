@@ -31,7 +31,7 @@ const AboutMe = () => {
       <div className="flex flex-col w-full">
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>About Me</h2>
-        <p className="text-base font-medium text-white mb-[30px] text-justify">
+        <p className="text-base font-medium text-white mb-[30px]">
           {aboutMeDescription}
         </p>
 

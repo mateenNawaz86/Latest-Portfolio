@@ -13,6 +13,7 @@
     "@next/font": "^14.2.15",
     "framer-motion": "^12.23.12",
     "next": "15.4.5",
+    "nodemailer": "^7.0.5",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-vertical-timeline-component": "^3.5.3"
