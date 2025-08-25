@@ -1,4 +1,9 @@
-import { cloudMeshLogo, lalaGroup, webIcon } from "@/assets/pngs";
+import {
+  cloudMeshLogo,
+  lalaGroup,
+  mavenLogixLogo,
+  webIcon,
+} from "@/assets/pngs";
 import {
   adobeXdIcon,
   bootstrapIcon,
@@ -38,6 +43,18 @@ export const aboutMeDescription = `Expert in contemporary JavaScript environment
 export const skillDescription = `Being an accomplished software engineer with a preference for frontend development, I am JavaScript expert and proficient in creating dynamic, user-focused applications utilizing contemporary tools and frameworks like React, Next.js, and TypeScript. I add style with Tailwind CSS for responsive, optimized styling and work closely with clients to develop scalable, high-performance, visually stunning solutions that address actual problems. An eager student, I learn quickly and adapt easily to new trends and technologies. Let's work together to bring your vision to life through innovative, world-class digital experiences!`;
 
 export const experiences = [
+  {
+    title: "Senior Frontend Developer (Remote)",
+    company_name: "Maven Logix",
+    icon: mavenLogixLogo,
+    iconBg: "#fff",
+    date: "May 2025 - Present",
+    points: [
+      "Design and develop responsive web applications using Next.js, ensuring high performance and scalability.",
+      "Collaborate with cross-functional teams to translate UI/UX designs into functional interfaces, optimizing for seamless user experiences and efficient API integrations.",
+      "Enhance application performance by leveraging modern CSS frameworks and state management tools, driving reliability and user satisfaction.",
+    ],
+  },
   {
     title: "Senior Frontend Software Engineer (Next.js)",
     company_name: "Cloud Mesh Solutions",
@@ -145,54 +162,54 @@ export const projectItems = [
     img: buero365,
     title: "Buero-365",
     description: `Developed a user-friendly dashboard for Buero-365, featuring a secure login system, process optimization tools, and advanced analytics for strategic business control. Integrated customer management, sales workflows, employee oversight, and system configuration to streamline operations, enhance decision-making, and maximize efficiency. Built using modern web technologies to ensure scalability, robust security, and compliance with industry-best practices, empowering businesses of all sizes to achieve long-term success in a competitive digital landscape.`,
-    slug: "https://new.buero-365.com/",
+    slug: "https://new.buero-365.com",
   },
   {
     img: swissHelden,
     title: "Swiss Helden",
     description: `Swiss Helden, a leading Swiss digital marketing agency, drives business growth with innovative online strategies. Specializing in SEO, social media, website/software development, and creative design, they offer tailored solutions to enhance visibility and engagement. With data-driven insights, free business audits, and industry-best practices, they optimize search rankings and expand digital presence, providing both online and offline design solutions to ensure client success and a competitive edge.`,
-    slug: "https://swisshelden.ch/en/",
+    slug: "https://swisshelden.ch/en",
   },
   {
     img: kaufes,
     title: "Kaufes - Swiss Market",
     description: `Developed a dynamic dashboard for Kaufes, Switzerland’s innovative online marketplace. Features a secure login, auction management, and user-friendly tools for buying, selling, and bidding. Integrated analytics for tracking listings, price negotiations, and transactions, with support for over 2 million products. Built with modern web technologies to ensure scalability, security, and sustainability, aligning with industry-best practices to empower a thriving second-hand community.`,
-    slug: "https://kaufes.ch/",
+    slug: "https://kaufes.ch",
   },
   {
     img: kaufes,
     title: "Kaufes - Super Admin",
     description: `Developed a robust dashboard for Kaufes - Super Admin, powering Switzerland’s leading online marketplace. Features a secure login system, user management, and tools for auction and listing oversight. Integrated analytics for tracking sales, bids, and user engagement, with streamlined workflows for inventory and transaction management. Built with modern web technologies to ensure scalability, security, and compliance with industry standards, enhancing efficiency for buyers and sellers.`,
-    slug: "https://admin.kaufes.ch/",
+    slug: "https://admin.kaufes.ch",
   },
   {
     img: pak4fly,
     title: "Pak4-fly",
     description: `Developed an efficient dashboard for Pak4-fly, featuring a secure login system for seamless user access. Integrated tools for parking management, including real-time space assignments, customer tracking, and shuttle service coordination. Built with modern web technologies to ensure scalability, security, and ease of use. Supports digital valet protocols with photo and signature options, optimizing airport parking operations for both shuttle and valet services.`,
-    slug: "https://park4fly.easyparksoftware.com/",
+    slug: "https://park4fly.easyparksoftware.com",
   },
   {
     img: hop,
     title: "House of Pakistan",
-    description: `Developed an efficient dashboard for Pak4-fly, featuring a secure login system for seamless user access. Integrated tools for parking management, including real-time space assignments, customer tracking, and shuttle service coordination. Built with modern web technologies to ensure scalability, security, and ease of use. Supports digital valet protocols with photo and signature options, optimizing airport parking operations for both shuttle and valet services.`,
-    slug: "https://park4fly.easyparksoftware.com/",
+    description: `House of Pakistan, by Maven Logix, is a vibrant marketplace for selling, purchasing, and building online shops. Companies can establish stores, whereas users browse various products such as apparel and food. It includes four main elements: Business Board for shop management, User Panel for effortless shopping, Admin Panel for control, and Guest Flow for effortless browsing. It supports secure transactions and local presence, enabling entrepreneurs and bringing customers to Pakistan's active market.`,
+    slug: "https://staging.houseofpakistan.com",
   },
   {
     img: hopBusiness,
     title: "House of Pakistan - Business Board",
-    description: `Developed an efficient dashboard for Pak4-fly, featuring a secure login system for seamless user access. Integrated tools for parking management, including real-time space assignments, customer tracking, and shuttle service coordination. Built with modern web technologies to ensure scalability, security, and ease of use. Supports digital valet protocols with photo and signature options, optimizing airport parking operations for both shuttle and valet services.`,
     slug: "https://park4fly.easyparksoftware.com/",
+    description: `House of Pakistan, by Maven Logix, is a vibrant marketplace for selling, purchasing, and building online shops. Companies can establish stores, whereas users browse various products such as apparel and food. It includes four main elements: Business Board for shop management, User Panel for effortless shopping, Admin Panel for control, and Guest Flow for effortless browsing. It supports secure transactions and local presence, enabling entrepreneurs and bringing customers to Pakistan's active market.`,
   },
   {
     img: hopUser,
     title: "House of Pakistan - User Panel",
-    description: `Developed an efficient dashboard for Pak4-fly, featuring a secure login system for seamless user access. Integrated tools for parking management, including real-time space assignments, customer tracking, and shuttle service coordination. Built with modern web technologies to ensure scalability, security, and ease of use. Supports digital valet protocols with photo and signature options, optimizing airport parking operations for both shuttle and valet services.`,
-    slug: "https://park4fly.easyparksoftware.com/",
+    slug: "https://bbstaging.houseofpakistan.com",
+    description: `House of Pakistan, by Maven Logix, is a vibrant marketplace for selling, purchasing, and building online shops. Companies can establish stores, whereas users browse various products such as apparel and food. It includes four main elements: Business Board for shop management, User Panel for effortless shopping, Admin Panel for control, and Guest Flow for effortless browsing. It supports secure transactions and local presence, enabling entrepreneurs and bringing customers to Pakistan's active market.`,
   },
   {
     img: hopAdmin,
     title: "House of Pakistan - Admin Panel",
-    description: `Developed an efficient dashboard for Pak4-fly, featuring a secure login system for seamless user access. Integrated tools for parking management, including real-time space assignments, customer tracking, and shuttle service coordination. Built with modern web technologies to ensure scalability, security, and ease of use. Supports digital valet protocols with photo and signature options, optimizing airport parking operations for both shuttle and valet services.`,
-    slug: "https://park4fly.easyparksoftware.com/",
+    slug: "https://adminstaging.houseofpakistan.com",
+    description: `House of Pakistan, by Maven Logix, is a vibrant marketplace for selling, purchasing, and building online shops. Companies can establish stores, whereas users browse various products such as apparel and food. It includes four main elements: Business Board for shop management, User Panel for effortless shopping, Admin Panel for control, and Guest Flow for effortless browsing. It supports secure transactions and local presence, enabling entrepreneurs and bringing customers to Pakistan's active market.`,
   },
 ];
